@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nexport var __N_SSG = true;\nexport default function Recipes(recipes) {\n  console.log(recipes);\n  return /*#__PURE__*/_jsx(\"div\", {\n    className: \"recipe-list\",\n    children: \"Recipe List\"\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
