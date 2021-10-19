@@ -85,3 +85,25 @@ footer {
     right:1px;
     font-size: 16px;
 }
+#sign_out *,
+#chat_room input{
+  font-size: 16px;
+  padding: 5px;
+}
+button{
+  font-weight: bold;
+}
+.chat-container{
+  background-color: #fff;
+  padding: 20px 20px 45px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.submit{
+  height: 32px;
+}
+@media only screen and (max-width: 768px) {
+  .recipe-list .food-wrapper {
+    width: 100%;
+  }
+}

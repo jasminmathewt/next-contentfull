@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ClientCompo from './clientcomp'
 
 export default function Layout({ children }) {
   return (
@@ -13,12 +14,13 @@ export default function Layout({ children }) {
             <h2>Spread The Joy</h2>
           </a>
         </Link>
+        
       </header>
 
       <div className="page-content">
         { children }
       </div>
-
+      <ClientCompo></ClientCompo>
       <footer>
         <p>Copyright 2021 Just Add Marmite :)</p>
       </footer>
